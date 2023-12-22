@@ -1,0 +1,1062 @@
+<!--
+
+
+Hit RUN to see this project in action!
+
+Feel free to edit the HTML and CSS to make it your own. You can also check the README.md file to know more.
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EshuMC</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1162111145843376168/1169137668316221440/Picsart_23-09-21_22-41-17-833.png?ex=65544f4d&is=6541da4d&hm=7c064050ac0feb37f1e058dc7edb1ff16ba4e4d3ea513378bf1b9dd6244cf33b&" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://cdn.discordapp.com/attachments/1162111145843376168/1169137668316221440/Picsart_23-09-21_22-41-17-833.png?ex=65544f4d&is=6541da4d&hm=7c064050ac0feb37f1e058dc7edb1ff16ba4e4d3ea513378bf1b9dd6244cf33b&" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">EshuMC Website</h1>
+
+          <p class="title">Powered By AteexCloud</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">support@eshumc.fun</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Discord</p>
+
+              <a href="tel:+12133522795" class="contact-link">discord.gg/eshumc</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">New Event:</p>
+
+              <time datetime="1982-06-23">Soon</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Hosting Location</p>
+
+              <address>AteexCloud , Singapore</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-discord"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>EshuMC</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Policy</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Store</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Update</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="eshumc">
+
+        <header>
+          <h2 class="h2 article-title">EshuMC</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            EshuMC is a public lifesteal multiplayer server of Minecraft where you can play with your friends. It is one of the best lifesteal server because it is the smoothest server and lag free Also, the ping's are comes very lowest due to which there is no delay while playing here.
+          </p>
+
+          <p>
+            Here our team provides maximum support to content creators especially in script recording and if you want, you can also invite your friends and play here.
+            <p>
+            In case of any problem or issue, you can contact our team on Discord who is always available to help you.And if you help us in catching any hacker we will also give you the reward from our side 
+
+            </p>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Team Work</h4>
+
+                <p class="service-item-text">
+                  Our team is working very hard to improve our EshuMC and fix glitches. We are always trying to bring something new and will continue to do so.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Plugins & Software</h4>
+
+                <p class="service-item-text">
+                  To reduce bugs and glitches in our EshuMC we use high quality and premium plugins or softwares also we keep upgrading our plugins from time to time.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Lag & Other</h4>
+
+                <p class="service-item-text">
+                  currently There are no complaints about lag and disconnecting issue but we are still trying hard to avoid overloading plugins and maintaining server balance however, if you still facing any problem or connecting problem then you can report to us, we will discuss it in detail.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content</h4>
+
+                <p class="service-item-text">
+                  Our team strongly supports content creators and if you want to apply for media rank in EshuMC, you need only 150+ views are required on EshuMC video so that you can be eligible for media rank.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">EshuMC Team</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://cdn.discordapp.com/attachments/1157369953465417878/1158404316672036934/Picsart_23-10-02_19-34-20-170.png?ex=651c1f97&is=651ace17&hm=f1ce60ac5ebd0b72544196768019aba2a8bc807229f58181e40b55907f781e74&" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>EshuPro</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Eshupro is the founder of EshuMC and a good developer or manager and is the current CO-CEO of AteexCloud. He has 4 years of development experience.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1159019740723937291/Picsart_23-10-04_12-17-41-702.png?ex=651e5cbf&is=651d0b3f&hm=7b22cbfaf4c90f9437492ef942f3acb3017285f87527b88a331e614d527d36a7&" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>ItsDuckYT</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    ItsDuckYT EshuMC along with being the best developer, he has worked on very big servers and even today he works as a manager on many service's. He is also called the Notch of Minecraft.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://cdn.discordapp.com/attachments/1043576133666476263/1159019832117841951/Picsart_23-10-04_12-20-00-208.png?ex=651e5cd5&is=651d0b55&hm=15ebab5f1fe6965b27ab7d29d2ba968296a6b31fb7523b14ed8062eaa3353c6e&" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AmanJI</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    AmanJI is the P.H.D Developer AKA (Personal help developer) of EshuMC and whenever we facing any problem, error or glitch, he is there to help us every time and he is also the owner of EnderCloud.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1159019794780135484/Picsart_23-10-04_12-19-13-412.png?ex=651e5ccc&is=651d0b4c&hm=64cc86914e6b16b0ffea9fdee368d4aa7f3e98c637fc91ab6d45b3dfb7d4ddb5&" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>ZodiMex</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    ZodiMex is the Discord manager of our EshhMC and is currently pursuing engineering with knowledge of Java ,C/C++ ,Python and other languages.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Sponsors By</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://media.discordapp.net/attachments/1043576133666476263/1160284439125950474/Picsart_23-10-08_00-05-00-519.png?ex=65341a17&is=6521a517&hm=b5eb0a3d139e78ddf84b332713244260b4bf1d1d5fbed9bd18546874d1899d3d&" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://media.discordapp.net/attachments/1043576133666476263/1160284454279979139/Picsart_23-10-08_00-05-25-236.png?ex=65341a1a&is=6521a51a&hm=224679836c9ad19c7506908d5082c28114e805e4f5200e253053b868c83ef373&" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://media.discordapp.net/attachments/1043576133666476263/1160286212955840552/Picsart_23-10-08_00-12-54-498.png?ex=65341bbe&is=6521a6be&hm=d6b5f32d63dd4fb6770ee9e681214fa2572008e1d5e6bb6daf51865efb14f02b&" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://cdn.discordapp.com/attachments/1043576133666476263/1169120094916460604/Picsart_23-11-01_09-13-16-963.png?ex=65543eef&is=6541c9ef&hm=480a1bafc1077dd16a680b5f5f0a5f4b7b58e6fb61b87881bf26139b82b94b31&" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="policy" data-page="policy">
+
+        <header>
+          <h2 class="h2 article-title">Public Police</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Policy</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">How to get Refund</h4>
+
+              <span>Refund Policy</span>
+
+              <p class="timeline-text">
+                All sales are final, you may not buy-back, stop, credit the server by any means necessary in order to receive your funds back that of which have been paid. And in doing so we reserve the right to disallow your continued play on the server/forums and not allow further funds to be added or taken away. We reserve the right to pursue any legal or collection action necessary to recover damages in the event of a forced charge-back.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">What we do with your personal information?</h4>
+
+              <span>Privacy Policy</span>
+
+              <p class="timeline-text">
+                This policy covers how we use your personal information. We take your privacy seriously and will take all measures to protect your personal information.
+
+Any personal information received will only be used to fill your order. We will not sell or redistribute your information to anyone.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">how we secure data</h4>
+
+              <span>Security Policy</span>
+
+              <p class="timeline-text">
+                We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorised way, altered or disclosed. In addition, we limit access to your personal data to those employees, agents, contractors and other third parties who have a business need to know. They will only process your personal data on our instructions and they are subject to a duty of confidentiality.
+
+You can also help us to protect your personal data by adhering to the following security measures:
+
+Do not confirm your bank or credit card details in an email. We will not ask for such personal data in this way, so any email claiming to be from us that does so is likely to be a fake. Please ignore it.
+
+Keep your passwords private.
+
+When creating a password, do not use words such as your name, date of birth or other personal data.
+
+Change your password regularly.
+
+We have put in place procedures to deal with any suspected personal data breach and will notify you and any applicable regulator of a breach where we are legally required to do so.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Main Rules</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Dont use Hackes & Cheats </h4>
+
+              <span>Hacking Rule</span>
+
+              <p class="timeline-text">
+                The use of hacks, cheats, or mods that give players unfair advantages over others is typically not allowed on public Minecraft servers. This includes things like x-ray vision, fly hacks, or any form of automation that violates the server's rules. Playing fairly ensures a level playing field for all participants.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">No disrespecting or Advertising</h4>
+
+              <span>Manner Rule</span>
+
+              <p class="timeline-text">
+                Promoting any website or server on chat or disrespecting anyone is against our server, for doing so you can even get banned for a few weeks.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">stop making leg machine duping machine</h4>
+
+              <span>Lllegal Machine Rule</span>
+
+              <p class="timeline-text">
+                If you use any type of spamming machine like lag machine, duping machine or any type of server to damage and crash our server then bad action can be taken against you
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Our Customer Vote</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Trusted Server</h5>
+                <data value="97">97%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 97%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Smooth And Lag Free</h5>
+                <data value="76">76%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 76%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Good Ping's</h5>
+                <data value="71">71%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 71%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Fast Customer Support</h5>
+                <data value="45">43%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 43%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="store" data-page="store">
+
+        <header>
+          <h2 class="h2 article-title">Store</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All Store</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Coine`s Shop</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Free Rank's</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Rank Shop</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All Store</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Coin Shop</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Free Shop</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Rank Shop</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="rank shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1158968830123589662/Picsart_23-10-02_23-16-51-963.png?ex=651e2d55&is=651cdbd5&hm=61dd5de25969d8605c02edd7a2463b86d95eccd380b3f959584665897d5916f8&" alt="lord" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lord Rank</h3>
+
+                <p class="project-category">Price : Soon</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="rank shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1158968865464782919/Picsart_23-10-02_23-17-10-541.png?ex=651e2d5e&is=651cdbde&hm=8998bdb5ce531a719dbaae69ffd04402126c3577be400ea9d85d7f2968794558&" alt="legend" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Legend Rank</h3>
+
+                <p class="project-category">Price : $2.70 | ₹220.00</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="rank shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1158968885282881536/Picsart_23-10-02_23-17-25-396.png?ex=651e2d62&is=651cdbe2&hm=d3b575b849b72e998280cf1741218f237e0889f7c926dfdaf803c9ddb9cf627a&" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Emperor Rank</h3>
+
+                <p class="project-category">Price : $1.80 | ₹149.00</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="rank shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1158968906778685580/Picsart_23-10-02_23-18-51-577.png?ex=651e2d67&is=651cdbe7&hm=361d0831444e329e3297a4944f91e027eff7a5fea7b52153c6b82767e810e025&" alt="Elder Rank" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Elder Rank</h3>
+
+                <p class="project-category">Price : $1.20 | ₹99.00</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="coin shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://cdn.discordapp.com/attachments/1043576133666476263/1158457903510990928/Picsart_23-10-02_23-05-37-357.png?ex=651c517f&is=651affff&hm=b4c6813432bbfa81eb98d3f53023a348d1aa56047623043b7e1ae0027ea17870&" alt="55k" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">26,000 Coins</h3>
+
+                <p class="project-category">$2.60 | ₹215.00</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="coin shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1158457823718555719/Picsart_23-10-02_23-04-25-425.png?ex=651c516c&is=651affec&hm=2c3da0a80369300225a8370ef68a49cb0f4529a75393e16fe2deb814fe88e6d5&" alt="30k" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">12,500 Coins</h3>
+
+                <p class="project-category">$1.35 | ₹110.00</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="coin shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1158457629249646592/Picsart_23-10-02_23-03-48-352.png?ex=651c513d&is=651affbd&hm=e1718af483a400f74d7f20b9a7842131e8854a99a6296a130cbeeac138d06ff9&" alt="15k" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">5,000 Coins</h3>
+
+                <p class="project-category">$0.70 | ₹55.00</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="free shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1151430067197587486/283b56d8-edee-4893-a7cb-d3c1a759ed8f-image.png?ex=654b42d0&is=6538cdd0&hm=5e606a15a454ec34c3d616264898adf8f55e4b580c6557fb73046b8288167fb2&=&width=480&height=480" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Media Rank</h3>
+
+                <p class="project-category">Apply For Free</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="free shop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://media.discordapp.net/attachments/1043576133666476263/1151430066744610856/1694082046618.png?ex=654b42d0&is=6538cdd0&hm=b7fbf7cb200a2746e7c9afdc5118e72a295da69466d69f7277e34e122460129b&=&width=436&height=480" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">V.I.P Rank</h3>
+
+                <p class="project-category">Apply For Free</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="update" data-page="update">
+
+        <header>
+          <h2 class="h2 article-title">Store</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1043576133666476263/1169163162059292722/6cadf-16745433696516-1920.png?ex=6554670b&is=6541f20b&hm=f211354ef2b70b8514edb890c32524b4e25db50d87c25c99c58a0382d0e065e6&" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Update</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Sept 18, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Java + Bedrock</h3>
+
+                  <p class="blog-text">
+                    Now everyone can play in server with Java,Bedrock and Pojav
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.discordapp.com/attachments/1043576133666476263/1169169317082959903/images_2.jpg?ex=65546cc7&is=6541f7c7&hm=dba8ea7ed5f733b4e9fe6e22fc7580cb1e651ea409f45df16be4c62fde9da546&" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Update</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 1, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Timeer Steal</h3>
+
+                  <p class="blog-text">
+                    You will have 5 lives if you lost all your lives then you will get 1 hour ban or for every 4 hours everyone gets one life. Hopefully we have tried to bring something new. 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
